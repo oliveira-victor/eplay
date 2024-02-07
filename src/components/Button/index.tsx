@@ -25,7 +25,7 @@ const Button = ({
         title={title}
         onClick={onClick}
       >
-        nome do botao
+        {title}
       </ButtonContainer>
     )
   }
