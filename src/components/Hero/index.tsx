@@ -42,7 +42,7 @@ const Hero = ({ game }: Props) => {
           {game.prices.current && (
             <Button
               type="button"
-              title="Clique aqui para adicionar este jogo ao cerrinho"
+              title="Clique aqui para adicionar este jogo ao carrinho"
               variant="primary"
               onClick={addToCart}
             >
