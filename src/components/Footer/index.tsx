@@ -1,14 +1,14 @@
 import { Link } from './styles'
-import { Container, FooterSection, Links, SectionTitle } from './styles'
+import * as S from './styles'
 
 const currentYear = new Date().getFullYear()
 
 const Footer = () => (
-  <Container>
+  <S.Container>
     <div className="container">
-      <FooterSection>
-        <SectionTitle>Categorias</SectionTitle>
-        <Links>
+      <S.FooterSection>
+        <S.SectionTitle>Categorias</S.SectionTitle>
+        <S.Links>
           <li>
             <Link
               title="Clique aqui para acessar jogos de RPG"
@@ -49,11 +49,11 @@ const Footer = () => (
               Luta
             </Link>
           </li>
-        </Links>
-      </FooterSection>
-      <FooterSection>
-        <SectionTitle>Acesso Rápido</SectionTitle>
-        <Links>
+        </S.Links>
+      </S.FooterSection>
+      <S.FooterSection>
+        <S.SectionTitle>Acesso Rápido</S.SectionTitle>
+        <S.Links>
           <li>
             <Link
               title="Clique aqui para acessar a seção de promoções"
@@ -70,11 +70,11 @@ const Footer = () => (
               Em breve
             </Link>
           </li>
-        </Links>
-      </FooterSection>
+        </S.Links>
+      </S.FooterSection>
       <p>{currentYear} - &copy; E-PLAY Todos os direitos reservados</p>
     </div>
-  </Container>
+  </S.Container>
 )
 
 export default Footer
