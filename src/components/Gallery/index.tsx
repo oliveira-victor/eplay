@@ -1,7 +1,6 @@
 import { useState } from 'react'
 
 import Section from '../Section'
-import { GalleryItem } from '../../pages/Home'
 
 import hogwarts from '../../assets/images/fundo_hogwarts.png'
 import spiderman from '../../assets/images/banner-homem-aranha.png'
